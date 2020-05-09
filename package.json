@@ -1,0 +1,23 @@
+{
+  "name": "test-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namnguyen-itvn/test-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namnguyen-itvn/test-example/issues"
+  },
+  "homepage": "https://github.com/namnguyen-itvn/test-example#readme",
+  "devDependencies": {
+    "cypress": "^4.5.0"
+  }
+}
