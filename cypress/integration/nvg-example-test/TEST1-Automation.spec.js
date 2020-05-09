@@ -57,7 +57,9 @@ describe("TEST 3 - 4. Automation test exercisers on Amazon website", () => {
         
         cy.visit('https://www.amazon.com/Advanced-Search-Books/b/?ie=UTF8&node=241582011&ref_=sv_b_1') //Navigate to Advance search Books page
         //cy.get('.glow-toaster-footer input[data-action-type="DISMISS"]').click({force:true})
+        cy.wait(3000)
         if (Cypress.$('.glow-toaster-footer input[data-action-type="DISMISS"]').length > 0) {
+            
             cy.get('.glow-toaster-footer input[data-action-type="DISMISS"]').click
           }
           cy.SearchForm(Amazon.AdvSearchForm,'apple','English')
