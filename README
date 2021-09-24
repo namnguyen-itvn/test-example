@@ -1,3 +1,4 @@
 1. Init packagejson -- npm init
 2. Install cypress -- npm install cypress --save-dev
+open terminal then run the command: npm run cypress
 3. Modify package.json

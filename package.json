@@ -1,7 +1,7 @@
 {
-  "name": "test-example",
+  "name": "automationtestcypress",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. Init packagejson -- npm init\r 2. Install cypress -- npm install cypress --save-dev\r 3. Modify package.json",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,6 +18,12 @@
   },
   "homepage": "https://github.com/namnguyen-itvn/test-example#readme",
   "devDependencies": {
-    "cypress": "^4.5.0"
+    "cypress": "^4.12.1",
+    "cypress-xpath": "^1.6.2",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
   }
 }

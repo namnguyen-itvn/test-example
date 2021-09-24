@@ -1,1 +1,6 @@
-{}
+{
+    "env": {
+        "rokuUrl": "https://computer-database.herokuapp.com/computers"
+    },
+    "reporter": "namnguyen.itvn"
+}
