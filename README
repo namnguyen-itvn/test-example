@@ -2,3 +2,6 @@
 2. Install cypress -- npm install cypress --save-dev
 open terminal then run the command: npm run cypress
 3. Modify package.json
+-----------------------------
+Report library: npm install --save-dev cypress-multi-reporters mocha-junit-reporter
+Run CLI and get report: npm run cy:run --reporter junit --reporter-options "mochaFile=results/my-test-output-[hash].xml"

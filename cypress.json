@@ -2,5 +2,9 @@
     "env": {
         "rokuUrl": "https://computer-database.herokuapp.com/computers"
     },
-    "reporter": "namnguyen.itvn"
+    "reporter": "junit",
+    "reporterOptions": {
+        "mochaFile": "results/my-test-output.xml",
+        "toConsole": true
+    }
 }
